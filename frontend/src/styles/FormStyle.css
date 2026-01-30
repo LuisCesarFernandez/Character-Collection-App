@@ -1,0 +1,43 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+    max-width: 400px;
+    margin: 5% auto;
+}
+
+.input-component {
+    height: 32px;
+    padding: 0 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-component:focus {
+    border-color: #4f46e5; /* azul suave */
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.15);
+}
+
+.button-component {
+    height: 32px;
+    padding: 0 14px;
+    border-radius: 7px;
+    border: 1px solid #4f46e5;
+    background-color: #4f46e5;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button-component:hover {
+    background-color: #4338ca;
+}
+
+.button-component:active {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}

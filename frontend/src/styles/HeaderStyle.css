@@ -1,0 +1,14 @@
+.main-header{
+    background: pink;
+    display: flex;
+}
+
+.text-header{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    padding: 2vh;
+}
